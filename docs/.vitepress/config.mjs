@@ -4,10 +4,10 @@ import sidebar from './sidebar.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/vitePress/',
+  base: '/VitePress/',
   title: "My Project",
   description: "A VitePress Site",
-  outDir: "dist", //输出目录
+  outDir: "./dist", //输出目录
   // srcDir: "docs", // 源码目录
   head:[
     ['link', { rel: 'icon', href: '/1.png' }]// 设置网站图标
