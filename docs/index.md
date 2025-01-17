@@ -6,7 +6,7 @@ hero:
   # //项目名称
   name: "Happy Day"
   image:
-    src: /logo.png
+    src: /2.gif
     alt: "Happy Day"
   # // 项目标题
   text: "要努力变强"
