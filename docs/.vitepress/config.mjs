@@ -4,6 +4,7 @@ import sidebar from './sidebar.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/vitePress/',
   title: "My Project",
   description: "A VitePress Site",
   outDir: "dist", //输出目录
