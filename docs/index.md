@@ -23,10 +23,27 @@ hero:
 
 features:
   - title: 前端学习
+    icon:
+        src: https://bu.dusays.com/2021/01/15/d29f7b4bc6367.gif
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: 生活杂记
+    icon:
+        src: https://bu.dusays.com/2021/01/15/29f9525142693.gif
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: 常见问题
+    icon:
+        src: https://bu.dusays.com/2021/01/15/2afce679d07e6.gif
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: React 开发插件
+    icon:
+      src: /2.gif
+    details: 是一个使用 React.js 框架开发的 Chrome 插件，旨在为开发者展示如何使用 React.js 构建强大的浏览器扩展。
+    link: https://juejin.cn/post/7349936384512213027
+    linkText: 查看详情
+ 
 ---
+<!-- // 添加一个五彩纸屑效果 -->
+<confetti/>
+<!-- // 访客统计 -->
+<VisitorPanel />
 

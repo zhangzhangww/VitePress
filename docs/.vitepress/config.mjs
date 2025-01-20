@@ -9,6 +9,7 @@ export default defineConfig({
   description: "A VitePress Site",
   outDir: "./dist", //输出目录
   // srcDir: "docs", // 源码目录
+  cleanUrls: true, // 是否启用“干净”URL
   head:[
     ['link', { rel: 'icon', href: '/1.png' }]// 设置网站图标
   ],
@@ -19,6 +20,10 @@ export default defineConfig({
     siteTitle: false,
     //导航栏
     nav: nav,
+    // 目录层级数
+    outline: {
+      level: [2, 3],
+    },
     //侧边栏
     sidebar: sidebar,
     search: {
@@ -97,7 +102,11 @@ export default defineConfig({
       infoLabel: "信息",
     }
    
-  }
+  },
+
+
+
+
 
 
 })
